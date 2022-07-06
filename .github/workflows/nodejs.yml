@@ -30,9 +30,11 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - run: npm ci
     - run: npm run build --if-present
-    - run: npm test
     - run: git config --global user.email "aakashkh13@gmail.com"
     - run: git config --global user.name "Aakash Khanna"
-    - run: npm run deploy
+    - run: cd build/
+    - run: git init
+    - run: git commit -m "Automated push"
+    - run: git push --force
       env:
         CI: true
