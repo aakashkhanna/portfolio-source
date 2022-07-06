@@ -1,7 +1,7 @@
 {
   "private": true,
-  "name": "https://aakashkhanna.github.io",
-  "homepage": ".",
+  "name": "aakashkhanna-ghpage",
+  "homepage": "https://aakashkhanna.github.io",
   "version": "0.1.0",
   "scripts": {
     "build": "react-scripts build",
