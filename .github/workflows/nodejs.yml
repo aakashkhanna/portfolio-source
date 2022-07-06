@@ -31,6 +31,8 @@ jobs:
     - run: npm ci
     - run: npm run build --if-present
     - run: npm test
+    - run: git config --global user.email "automated@aakashkhanna.com"
+    - run: git config --global user.name "Automated Run"
     - run: npm run deploy
       env:
         CI: true
