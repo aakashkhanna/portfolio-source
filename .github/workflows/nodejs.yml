@@ -36,7 +36,7 @@ jobs:
     - run: rm -rf .git
     - run: cd build/
     - run: git init
-    - run: git remote add origin git@github.com/aakashkhanna/aakashkhanna.github.io
+    - run: git remote add origin git@github.com/aakashkhanna/aakashkhanna.github.io.git
     - run: git add build/
     - run: git commit -m "Automated push"
     - run: git push --set-upstream origin master --force
