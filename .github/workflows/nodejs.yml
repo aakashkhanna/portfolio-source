@@ -37,6 +37,7 @@ jobs:
     - run: cd build/
     - run: git init
     - run: git remote add origin https://github.com/aakashkhanna/aakashkhanna.github.io
+    - run: ls
     - run: git commit -am "Automated push"
     - run: git push --force
       env:
