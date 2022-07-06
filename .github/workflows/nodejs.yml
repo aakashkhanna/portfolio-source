@@ -32,9 +32,12 @@ jobs:
     - run: npm run build --if-present
     - run: git config --global user.email "aakashkh13@gmail.com"
     - run: git config --global user.name "Aakash Khanna"
+    - run: git remote remove origin
+    - run: rm -rf .git
     - run: cd build/
     - run: git init
-    - run: git commit -m "Automated push"
+    - run: git remote add origin https://github.com/aakashkhanna/aakashkhanna.github.io
+    - run: git commit -am "Automated push"
     - run: git push --force
       env:
         CI: true
