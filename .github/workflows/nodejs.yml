@@ -6,10 +6,12 @@ on:
     branches:  
     - master
     - releases/*
+    - initial_commit-react
   pull_request:
     branches:
     - master
     - releases/*
+    - initial_commit-react
 
 jobs:
   build:
