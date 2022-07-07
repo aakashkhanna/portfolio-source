@@ -23,11 +23,11 @@ const greeting = {
   logo_name: "AakashKhanna",
   nickname: "aakashkh",
   subTitle:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "A Real-Life problem solver who is inspired by how things work around us to build software patterns based on that.",
   resumeLink:
     "https://drive.google.com/open?id=1XYpYhLeqCdyx_q6l0bQoC7RgwQjAjXPf",
-  portfolio_repository: "https://github.com/Aakash1919/masterPortfolio",
-  githubProfile: "https://github.com/Aakash1919",
+  portfolio_repository: "https://github.com/aakashkhanna/portfolio-source",
+  githubProfile: "https://github.com/Khanna",
 };
 
 const socialMediaLinks = [
@@ -54,180 +54,66 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "Data Science & AI",
+      title: "Backend Development",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
+        "⚡ Have had the opportunity to develop several applications using patterns like Rest APIs, Console Applications, Kafka Consumers, Nuget packages and Python Fast APIs, Typer CLI Tools, Poetry scripts, and Wheel packages.",
+        "⚡ Developed highly scalable and highly available Rest APIs using Dotnet Core 3.1 and Python FastAPI",
+        "⚡ Extensive experience writing libraries and templates that help implement common functionality such as SFTP, Kafka, Logging, Metrics, and AWS S3.",
       ],
       softwareSkills: [
         {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
+          skillName: "DotNet Core 3.1",
+          fontAwesomeClassname: "simple-icons:dotnet",
           style: {
             backgroundColor: "transparent",
           },
         },
         {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
-          style: {
-            backgroundColor: "white",
-            color: "#D00000",
-          },
-        },
-        {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
+          skillName: "C#",
+          fontAwesomeClassname: "file-icons:c-script",
           style: {
             backgroundColor: "transparent",
           },
         },
         {
           skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
+          fontAwesomeClassname: "akar-icons:python-fill",
           style: {
             backgroundColor: "transparent",
-            color: "#3776AB",
+          },
+        },
+        {
+          skillName: "FastAPI",
+          fontAwesomeClassname: "simple-icons:fastapi",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
+        {
+          skillName: "Poetry CLI",
+          fontAwesomeClassname: "simple-icons:poetry",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
+        {
+          skillName: "Nuget",
+          fontAwesomeClassname: "file-icons:nuget",
+          style: {
+            backgroundColor: "transparent",
           },
         },
       ],
     },
     {
-      title: "Full Stack Development",
+      title: "Microservices and Containerization",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "⚡ Responsible for development, documentation, enhancements, and maintenance of more than 25 microservice applications which acted as integration between various financial applications",
+        "⚡ Enhanced Microservices by adding contextualized logging, metrics, alerts, and dashboards for reducing troubleshooting time with the help of tools like DataDog, Splunk, and Pagerduty.",
       ],
       softwareSkills: [
-        {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
-          style: {
-            color: "#E34F26",
-          },
-        },
-        {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
-          style: {
-            color: "#1572B6",
-          },
-        },
-        {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
-          style: {
-            color: "#CC6699",
-          },
-        },
-        {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
-          style: {
-            backgroundColor: "#000000",
-            color: "#F7DF1E",
-          },
-        },
-        {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#61DAFB",
-          },
-        },
-        {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
-          style: {
-            color: "#339933",
-          },
-        },
-        {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
-          style: {
-            color: "#CB3837",
-          },
-        },
-        {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
-          style: {
-            color: "#2C8EBB",
-          },
-        },
-        {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
-          style: {
-            color: "#663399",
-          },
-        },
-        {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
-          style: {
-            color: "#02569B",
-          },
-        },
-      ],
-    },
-    {
-      title: "Cloud Technologies",
-      fileName: "CloudInfraImg",
-      skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
-      ],
-      softwareSkills: [
-        {
-          skillName: "GCP",
-          fontAwesomeClassname: "simple-icons:googlecloud",
-          style: {
-            color: "#4285F4",
-          },
-        },
-        {
-          skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
-          style: {
-            color: "#FF9900",
-          },
-        },
-        {
-          skillName: "Azure",
-          fontAwesomeClassname: "simple-icons:microsoftazure",
-          style: {
-            color: "#0089D6",
-          },
-        },
-        {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
-          style: {
-            color: "#FFCA28",
-          },
-        },
-        {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
-          style: {
-            color: "#336791",
-          },
-        },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#47A248",
-          },
-        },
         {
           skillName: "Docker",
           fontAwesomeClassname: "simple-icons:docker",
@@ -242,41 +128,84 @@ const skills = {
             color: "#326CE5",
           },
         },
+        {
+          skillName: "Microservices",
+          fontAwesomeClassname: "carbon:microservices-1",
+          style: {
+            color: "#1488C6",
+          },
+        },
+        {
+          skillName: "Kafka",
+          fontAwesomeClassname: "logos:kafka",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
       ],
     },
     {
-      title: "UI/UX Design",
-      fileName: "DesignImg",
+      title: "Cloud Technologies",
+      fileName: "CloudInfraImg",
       skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications",
-        "⚡ Customizing logo designs and building logos from scratch",
-        "⚡ Creating the flow of application functionalities to optimize user experience",
+        "⚡ Experience working on multiple cloud platforms",
+        "⚡ Developed cloud deployment strategy for AWS services such as AWS ECS, AWS EKS and AWS Lambda.",
+        "⚡ Hosted and maintained APIs on containers along with integration of databases",
+        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
       ],
       softwareSkills: [
         {
-          skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
+          skillName: "AWS",
+          fontAwesomeClassname: "simple-icons:amazonaws",
+          style: {
+            color: "#FF9900",
+          },
+        },
+        {
+          skillName: "Oracle Cloud",
+          fontAwesomeClassname: "fontisto:oracle",
+          style: {
+            color: "#0089D6",
+          },
+        },
+        {
+          skillName: "Azure",
+          fontAwesomeClassname: "simple-icons:microsoftazure",
+          style: {
+            color: "#0089D6",
+          },
+        },
+      ],
+    },
+    {
+      title: "Database",
+      fileName: "DesignImg",
+      skills: ["⚡ Database Highlights"],
+      softwareSkills: [
+        {
+          skillName: "MySQL",
+          fontAwesomeClassname: "cib:mysql",
           style: {
             color: "#FF2BC2",
           },
         },
         {
-          skillName: "Figma",
-          fontAwesomeClassname: "simple-icons:figma",
+          skillName: "Snowflake",
+          fontAwesomeClassname: "logos:snowflake",
           style: {
             color: "#F24E1E",
           },
         },
         {
-          skillName: "Adobe Illustrator",
-          fontAwesomeClassname: "simple-icons:adobeillustrator",
+          skillName: "SQL Server",
+          fontAwesomeClassname: "simple-icons:microsoftsqlserver",
           style: {
             color: "#FF7C00",
           },
         },
         {
-          skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:inkscape",
+          skillName: "Flyway",
+          fontAwesomeClassname: "simple-icons:flyway",
           style: {
             color: "#000000",
           },
@@ -288,48 +217,7 @@ const skills = {
 
 // Education Page
 const competitiveSites = {
-  competitiveSites: [
-    {
-      siteName: "HackerRank",
-      iconifyClassname: "simple-icons:hackerrank",
-      style: {
-        color: "#2EC866",
-      },
-      profileLink: "https://www.hackerrank.com/layman_brother",
-    },
-    {
-      siteName: "Codechef",
-      iconifyClassname: "simple-icons:codechef",
-      style: {
-        color: "#5B4638",
-      },
-      profileLink: "https://www.codechef.com/users/Aakash_1919",
-    },
-    {
-      siteName: "Codeforces",
-      iconifyClassname: "simple-icons:codeforces",
-      style: {
-        color: "#1F8ACB",
-      },
-      profileLink: "http://codeforces.com/profile/layman_brother",
-    },
-    {
-      siteName: "Hackerearth",
-      iconifyClassname: "simple-icons:hackerearth",
-      style: {
-        color: "#323754",
-      },
-      profileLink: "https://www.hackerearth.com/@Aakash391",
-    },
-    {
-      siteName: "Kaggle",
-      iconifyClassname: "simple-icons:kaggle",
-      style: {
-        color: "#20BEFF",
-      },
-      profileLink: "https://www.kaggle.com/laymanbrother",
-    },
-  ],
+  competitiveSites: [],
 };
 
 const degrees = {
