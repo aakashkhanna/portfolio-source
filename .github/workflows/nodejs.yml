@@ -36,7 +36,6 @@ jobs:
     - run: rm -rf .git
     - run: cd build/
     - run: git init
-    - run: git remote add origin https://${{  }}@github.com/
     - run: git add build/
     - run: git commit -m "Automated push"
     - name: Push changes
