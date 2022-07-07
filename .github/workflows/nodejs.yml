@@ -20,7 +20,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [10.x, 12.x]
+        node-version: [10.x]
 
     steps:
     - uses: actions/checkout@v2
@@ -34,10 +34,11 @@ jobs:
     - run: git config --global user.name "Aakash Khanna"
     - run: git remote remove origin
     - run: rm -rf .git
-    - run: cd build/
-    - run: git init
-    - run: git add build/
-    - run: git commit -m "Automated push"
+    - run: | 
+      cd build/
+      git init
+      git add .
+      git commit -m "Automated push"
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
