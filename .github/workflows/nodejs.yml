@@ -47,6 +47,6 @@ jobs:
         github_token: ${{ secrets.GH_TOKEN }}
         repository: aakashkhanna/aakashkhanna.github.io
         directory: build
-       env:
+     env:
         CI: true
 
