@@ -36,9 +36,14 @@ jobs:
     - run: rm -rf .git
     - run: cd build/
     - run: git init
-    - run: git remote add origin https://${{ secrets.GITHUB_TOKEN }}@github.com/aakashkhanna/aakashkhanna.github.io.git
+    - run: git remote add origin https://${{  }}@github.com/
     - run: git add build/
     - run: git commit -m "Automated push"
-    - run: git push --set-upstream origin master --force
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        repository: aakashkhanna/aakashkhanna.github.io
       env:
         CI: true
+
