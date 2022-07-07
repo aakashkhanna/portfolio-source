@@ -34,11 +34,13 @@ jobs:
     - run: git config --global user.name "Aakash Khanna"
     - run: git remote remove origin
     - run: rm -rf .git
-    - run: | 
-      cd build/
-      git init
-      git add .
-      git commit -m "Automated push"
+    - name: See where we are
+      run: |
+        pwd
+        cd build/
+        git init
+        git add .
+        git commit -m "Automated push"
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
