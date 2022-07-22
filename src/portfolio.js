@@ -340,15 +340,15 @@ const publicationsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "",
+    profile_image_path: "feelingProud.svg",
     description:
-      "You can message me, I will reply within 24 hours. I can help you with Docker, .Net Core 3.1, FastAPI, Python, Cloud and Opensource Development.",
+      "You can message me and I will reply within 24 hours. I can help you with Docker, .Net Core 3.1, FastAPI, Python, Cloud and Opensource Development.",
   },
   addressSection: {
     title: "City",
     subtitle: "New Delhi - 110027",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://goo.gl/maps/MpMqtRZytFchMkZ76",
+    location_map_link: "https://goo.gl/maps/12iv4b7nrDxyK6sr6",
   },
   phoneSection: {
     title: "Phone Number",
