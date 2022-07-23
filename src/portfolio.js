@@ -24,8 +24,6 @@ const greeting = {
   nickname: "aakashkh",
   subTitle:
     "A Real-Life problem solver who is inspired by how things work around us to build software patterns based on that.",
-  resumeLink:
-    "https://drive.google.com/open?id=1XYpYhLeqCdyx_q6l0bQoC7RgwQjAjXPf",
   portfolio_repository: "https://github.com/aakashkhanna/portfolio-source",
   githubProfile: "https://github.com/aakashkhanna",
 };
