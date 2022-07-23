@@ -13,7 +13,7 @@ const seo = {
   og: {
     title: "Aakash Khanna Portfolio",
     type: "website",
-    url: "http://AakashKhanna.com/",
+    url: "http://AakashKhanna.github.io/",
   },
 };
 
@@ -27,7 +27,7 @@ const greeting = {
   resumeLink:
     "https://drive.google.com/open?id=1XYpYhLeqCdyx_q6l0bQoC7RgwQjAjXPf",
   portfolio_repository: "https://github.com/aakashkhanna/portfolio-source",
-  githubProfile: "https://github.com/Khanna",
+  githubProfile: "https://github.com/aakashkhanna",
 };
 
 const socialMediaLinks = [
@@ -289,12 +289,23 @@ const experience = {
       title: "Work",
       experiences: [
         {
+          title: "Senior Project Engineer",
+          company: "Blackstone Center of Excellence – Wipro Limited",
+          company_url: "https://www.blackstone.com/",
+          logo_path: "wirp.jpg",
+          duration: "June 2022 - Present",
+          location: "Gurgaon, India",
+          description:
+            "Worked on the firm's effort to migrate Oracle from on-prem to cloud. Was Responsible for development, documentation, enhancements, and maintenance of more than 25 microservice applications which acted as integration between various financial applications. The cloud migration project aided in resetting how this system’s code base and deployment were managed. Migration to a cloud platform also allows utilization of new functions and features of the software on a more frequent basis as opposed to relying on big upgrades.",
+          color: "#0879bf",
+        },
+        {
           title: "Project Engineer",
           company: "Blackstone Center of Excellence – Wipro Limited",
-          company_url: "https://legatohealthtech.com/",
+          company_url: "https://www.blackstone.com/",
           logo_path: "wirp.jpg",
-          duration: "July 2020 - PRESENT",
-          location: "Hyderabad, Telangana",
+          duration: "July 2020 - June 2022",
+          location: "Gurgaon, India",
           description:
             "Worked on the firm's effort to migrate Oracle from on-prem to cloud. Was Responsible for development, documentation, enhancements, and maintenance of more than 25 microservice applications which acted as integration between various financial applications. The cloud migration project aided in resetting how this system’s code base and deployment were managed. Migration to a cloud platform also allows utilization of new functions and features of the software on a more frequent basis as opposed to relying on big upgrades.",
           color: "#0879bf",
@@ -308,10 +319,10 @@ const experience = {
           title: "Software Development Intern",
           company:
             "Blackstone Center of Excellence - Thoughtfocus Technologies",
-          company_url: "https://www.delhivery.com/",
+          company_url: "https://www.blackstone.com/",
           logo_path: "tf.jpg",
           duration: "January 2020 - July 2020",
-          location: "Gurgaon, Haryana",
+          location: "Gurgaon, India",
           description:
             "Designed the architecture and developed a set of foreign exchange rate microservices, which was the team’s first set of microservices. Contributed in creation of templates for .Net Core and Python applications using Cookie cutter tool, This template assisted in increasing developer efficiency and was used as boilerplate code for more than 120 microservices.",
           color: "#ee3c26",
